@@ -11,11 +11,11 @@
 
   Assuming default values:
 
-  <div class="grid">
-    <div class="grid__col grid__col--1-by-2">
+  <div class="sfgrid">
+    <div class="sfgrid__col sfgrid__col--1-by-2">
       A half-width column.
     </div>
-    <div class="grid__col grid__col--1-by-4 grid__col--pull-1-by-4">
+    <div class="sfgrid__col sfgrid__col--1-by-4 sfgrid__col--pull-1-by-4">
       A quarter, pulled left by its own width. You get this, right?
     </div>
   </div>
