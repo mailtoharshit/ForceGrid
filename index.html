@@ -1,175 +1,176 @@
-<head>
-  <title>ForceGrid - Simplified Grid for Responsive Visualforce Pages</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="initial-scale=1" />
-  <link rel="stylesheet" href="https://rawgit.com/mailtoharshit/ForceGrid/master/source/forcegrid.css" />
-  <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:400,600' rel='stylesheet' type='text/css' />
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-</head>
+<html>
+  <head>
+    <title>ForceGrid - Simplified Grid for Responsive Visualforce Pages</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1" />
+    <link rel="stylesheet" href="https://rawgit.com/mailtoharshit/ForceGrid/master/source/forcegrid.css" />
+    <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:400,600' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/mailtoharshit/ForceGrid/gh-pages/stylesheets/stylesheet.css" media="screen" />
+  </head>
 
-<body>
-  <div class="sfgrid">
-    <div class="sfgrid__col sfgrid__col--1-by-5">
-      <img src="http://i.imgur.com/jKD03RV.png?1" style="width:190px;height:120px;">
-    </div>
-    <div class="wrap">
-      <div class="sfgrid">
-        <div class="sfgrid__col sfgrid__col--3-by-5 sfgrid__col sfgrid__col--centered">
-          <header class="site__header">
-            <h1 class="site__title">ForceGrid</h1>
-            <span class="gamma site__desc">Simplied Responsive Grid for Visualforce Pages and HTML Apps</span>
-          </header>
-        </div>
-        <div class="sfgrid__col sfgrid__col--3-by-5 sfgrid__col--centered">
-          <section>
-            <h2>Simplified and Powerful Control</h2>
-            <p>You make your own combinations in an easy fashion.</p>
-            <pre class="code"><i>$col-groups:</i> (12, 6, 9);</pre>
-          </section>
-        </div>
+  <body>
+    <div class="sfgrid">
+      <div class="sfgrid__col sfgrid__col--1-by-5">
+        <img src="http://i.imgur.com/jKD03RV.png?1" style="width:190px;height:120px;">
       </div>
-      <figure class="sfgrid sfgrid--demo">
-        <div class='sfgrid__col sfgrid__col--1-by-2'>
-          <div style="text-align: center;
-                    ">sfgrid__col--1-by-2</div>
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-2'>
-          <div style="text-align: center;
-                    ">sfgrid__col--1-by-2</div>
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-3'>
-          <div style="text-align: center;
-                    ">sfgrid__col--1-by-2</div>
-        </div>
-        <div class='sfgrid__col sfgrid__col--2-by-3'>
-          <div style="text-align: center;
-                    ">sfgrid__col--1-by-2</div>
-        </div>
-        <div class='sfgrid__col sfgrid__col--3-by-3'>
-          <div style="text-align: center;
-                    ">sfgrid__col--1-by-2</div>
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-3'>
-          <div style="text-align: center;
-                    ">sfgrid__col--1-by-2</div>
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-3'>
-          <div style="text-align: center;
-                    ">sfgrid__col--1-by-2</div>
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-3'>
-          <div style="text-align: center;
-                    ">sfgrid__col--1-by-2</div>
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--2-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--3-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-4'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-5'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-5'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--2-by-5'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--1-by-5'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--3-by-5'>
-
-        </div>
-        <div class='sfgrid__col sfgrid__col--2-by-5'>
-
-        </div>
-
-      </figure>
-      <div class="sfgrid">
-        <div class="sfgrid__col sfgrid__col--12-by-12 sfgrid__col--centered">
-          <h2>Fixed width gutters</h2>
-          <p>No fluid gutter width bullcrap. This is the real deal. What you set is what you get.</p>
-          <pre><i>$gutter-width:</i> 20px;</pre>
-        </div>
-
-        <figure class="sfgrid__col sfgrid__col--5-by-12">
-          <div class="sfgrid sfgrid--demo">
-            <div class="sfgrid__col sfgrid__col--2-by-2"></div>
-
-            <div class="sfgrid__col sfgrid__col--1-by-2"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-2"></div>
-
-            <div class="sfgrid__col sfgrid__col--1-by-3"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-3"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-3"></div>
-
-            <div class="sfgrid__col sfgrid__col--1-by-4"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-4"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-4"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-4"></div>
-
-            <div class="sfgrid__col sfgrid__col--1-by-5"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-5"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-5"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-5"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-5"></div>
-          </div>
-        </figure>
-
-        <figure class="sfgrid__col sfgrid__col--5-by-12">
-          <div class="sfgrid sfgrid--demo">
-            <div class="sfgrid__col sfgrid__col--3-by-5"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-5"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-5"></div>
-
-            <div class="sfgrid__col sfgrid__col--3-by-4 sfgrid__col--push-1-by-4"></div>
-
-            <div class="sfgrid__col sfgrid__col--2-by-3"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-3"></div>
-
-            <div class="sfgrid__col sfgrid__col--1-by-2"></div>
-            <div class="sfgrid__col sfgrid__col--1-by-2"></div>
-
-            <div class="sfgrid__col sfgrid__col--2-by-2"></div>
-          </div>
-        </figure>
-
-
-        <div class="sfgrid__col sfgrid__col--4-by-5 sfgrid__col--centered">
-          <h2 class="sfgrid__col--centered" style="text-align : center">Limitless* possibilities</h2>
-          <p style="text-align : center">Start using ForceGrid today.</p>
-          <p class="promo"><a class="butt butt--primary" href="//github.com/mailtoharshit/ForceGrid">View on GitHub</a> <a class="butt" href="//github.com/mailtoharshit/ForceGrid/blob/master/source/forcegrid.css">Download Quickstart CSS</a></p>
-        </div>
-      </div>
-    </div>
-    <footer class="site__footer">
       <div class="wrap">
-        <p>*Read more on <a href="//www.oyecode.me">Oyecode</a>.</p>
-      </div>
-    </footer>
-</body>
+        <div class="sfgrid">
+          <div class="sfgrid__col sfgrid__col--3-by-5 sfgrid__col sfgrid__col--centered">
+            <header class="site__header">
+              <h1 style="font-family: 'Bad Script', cursive; font-weight: 400; font-size:60px;">Force-Grid</h1>
+              <span class="gamma site__desc">Simplied Responsive Grid for Visualforce Pages and HTML Apps</span>
+            </header>
+          </div>
+          <div class="sfgrid__col sfgrid__col--3-by-5 sfgrid__col--centered">
+            <section>
+              <h2>Simplified and Powerful Control</h2>
+              <p>You make your own combinations in an easy fashion.</p>
+              <pre class="code"><i>$col-groups:</i> (12, 6, 9);</pre>
+            </section>
+          </div>
+        </div>
+        <figure class="sfgrid sfgrid--demo">
+          <div class='sfgrid__col sfgrid__col--1-by-2'>
+            <div style="text-align: center;
+                      ">sfgrid__col--1-by-2</div>
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-2'>
+            <div style="text-align: center;
+                      ">sfgrid__col--1-by-2</div>
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-3'>
+            <div style="text-align: center;
+                      ">sfgrid__col--1-by-2</div>
+          </div>
+          <div class='sfgrid__col sfgrid__col--2-by-3'>
+            <div style="text-align: center;
+                      ">sfgrid__col--1-by-2</div>
+          </div>
+          <div class='sfgrid__col sfgrid__col--3-by-3'>
+            <div style="text-align: center;
+                      ">sfgrid__col--1-by-2</div>
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-3'>
+            <div style="text-align: center;
+                      ">sfgrid__col--1-by-2</div>
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-3'>
+            <div style="text-align: center;
+                      ">sfgrid__col--1-by-2</div>
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-3'>
+            <div style="text-align: center;
+                      ">sfgrid__col--1-by-2</div>
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-4'>
 
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-4'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--2-by-4'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--3-by-4'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-4'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-4'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-4'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-4'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-4'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-5'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-5'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--2-by-5'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--1-by-5'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--3-by-5'>
+
+          </div>
+          <div class='sfgrid__col sfgrid__col--2-by-5'>
+
+          </div>
+
+        </figure>
+        <div class="sfgrid">
+          <div class="sfgrid__col sfgrid__col--12-by-12 sfgrid__col--centered">
+            <h2>Fixed width gutters</h2>
+            <p>No fluid gutter width bullcrap. This is the real deal. What you set is what you get.</p>
+            <pre><i>$gutter-width:</i> 20px;</pre>
+          </div>
+
+          <figure class="sfgrid__col sfgrid__col--5-by-12">
+            <div class="sfgrid sfgrid--demo">
+              <div class="sfgrid__col sfgrid__col--2-by-2"></div>
+
+              <div class="sfgrid__col sfgrid__col--1-by-2"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-2"></div>
+
+              <div class="sfgrid__col sfgrid__col--1-by-3"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-3"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-3"></div>
+
+              <div class="sfgrid__col sfgrid__col--1-by-4"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-4"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-4"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-4"></div>
+
+              <div class="sfgrid__col sfgrid__col--1-by-5"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-5"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-5"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-5"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-5"></div>
+            </div>
+          </figure>
+
+          <figure class="sfgrid__col sfgrid__col--5-by-12">
+            <div class="sfgrid sfgrid--demo">
+              <div class="sfgrid__col sfgrid__col--3-by-5"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-5"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-5"></div>
+
+              <div class="sfgrid__col sfgrid__col--3-by-4 sfgrid__col--push-1-by-4"></div>
+
+              <div class="sfgrid__col sfgrid__col--2-by-3"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-3"></div>
+
+              <div class="sfgrid__col sfgrid__col--1-by-2"></div>
+              <div class="sfgrid__col sfgrid__col--1-by-2"></div>
+
+              <div class="sfgrid__col sfgrid__col--2-by-2"></div>
+            </div>
+          </figure>
+
+
+          <div class="sfgrid__col sfgrid__col--4-by-5 sfgrid__col--centered">
+            <h2 class="sfgrid__col--centered" style="text-align : center">Limitless* possibilities</h2>
+            <p style="text-align : center">Start using ForceGrid today.</p>
+            <p class="promo"><a class="butt butt--primary" href="//github.com/mailtoharshit/ForceGrid">View on GitHub</a> <a class="butt" href="//github.com/mailtoharshit/ForceGrid/blob/master/source/forcegrid.css">Download Quickstart CSS</a></p>
+          </div>
+        </div>
+      </div>
+      <footer class="site__footer">
+        <div class="wrap">
+          <p>*Read more on <a href="//www.oyecode.me">Oyecode</a>.</p>
+        </div>
+      </footer>
+  </body>
 </html>
