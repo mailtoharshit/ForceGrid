@@ -5,7 +5,7 @@ To learn more, go to [http://mailtoharshit.github.io/ForceGrid/](http://mailtoha
 
 ## Jump-start 
 
-Using ForceGrid is simple. First, link to grid.css in your HTML document's header of your page:
+Using ForceGrid is simple. First, link to forcegrid.css in your HTML document's header of your page:
 
 ```<link rel="stylesheet" href="css/forcegrid.css">```
 
