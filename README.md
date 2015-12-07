@@ -1,2 +1,2 @@
 # ForceGrid
-Responsive Grid that provides you BareBone structure your Force.com and HTML Apps
+This is light-weight responsive css library, forcegrid provides you barebone structure or skeleton to your responsive Force.com and HTML Apps. 
