@@ -163,7 +163,7 @@ body {
   height: 1.4444rem;
   margin-bottom: 1.4444rem;
   background-clip: content-box;
-  background-color: black
+  background-color: lightsteelblue
 }
 
 .sfgrid--demo [class*="-by-4"] {
